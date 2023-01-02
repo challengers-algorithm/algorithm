@@ -1,6 +1,6 @@
 # https://school.programmers.co.kr/learn/courses/30/lessons/132266
 # 예상 알고리즘: Dijkstra
-# 베스트 알고리즘: Dijkstra
+# 베스트 알고리즘: Dijkstra, BFS
 
 from collections import defaultdict
 from heapq import heappush, heappop
