@@ -17,9 +17,9 @@
 
 1. Repository를 Fork한다.
 2. 문제 풀이를 Local Repository의 자신의 별명 폴더에 저장하여 commit 후 push한다.
-3. Pull Request를 요청한다.
+3. Pull Request(이하 PR)를 요청한다.
 
-※ 타인의 폴더에 영향을 주거나 2개 이상의 폴더를 이용하거나 공공의 이익에 반하는 PR은 거절될 수 있습니다.
+※ 타인의 폴더에 영향을 주거나 리포지토리 루트에 2개 이상의 폴더를 이용하거나 공공의 이익에 반하는 PR은 거절될 수 있습니다.
 
 
 ## 🧐 COC(Code of Conduct, 행동 규칙)
@@ -40,9 +40,9 @@
    
 | 플랫폼 이름 | 예시 |
 | --- | --- |
-| 백준| solve: 221227 yechnkun 백준 오목 |
-| 프로그래머스 | solve: 221227 yechnkun 프로그래머스 컨트롤 제트 |
-| 리트코드 예시 | solve: 221227 yechnkun 리트코드 1. Two Sum |
+| 백준| solve: 221227 yechankun 백준 오목 |
+| 프로그래머스 | solve: 221227 yechankun 프로그래머스 컨트롤 제트 |
+| 리트코드 예시 | solve: 221227 yechankun 리트코드 1. Two Sum |
 
 
 ## 🍴 PR 규칙
@@ -51,12 +51,14 @@
 - solve: 6자날짜표기 이름 플랫폼 문제이름
 - fix: 6자날짜표기 이름 플랫폼 문제이름
 - move: 6자날짜표기 이름 플랫폼 문제이름
+- PR할 커밋이 여러개일 경우 ' & ' 기호를 붙여 나열(4개 이상은 지양)
 
 | 플랫폼 이름 | 예시 |
 | --- | --- |
-| 백준| solve: 221227 yechnkun 백준 오목 |
-| 프로그래머스 | solve: 221227 yechnkun 프로그래머스 컨트롤 제트 |
-| 리트코드 예시 | solve: 221227 yechnkun 리트코드 1. Two Sum |
+| 백준| solve: 221227 yechankun 백준 오목 |
+| 프로그래머스 | solve: 221227 yechankun 프로그래머스 컨트롤 제트 |
+| 리트코드 예시 | solve: 221227 yechankun 리트코드 1. Two Sum |
+| 여러 PR 예시 | solve: 221227 yechankun 리트코드 1. Two Sum & solve: 221227 yechankun 프로그래머스 컨트롤 제트 |
 - PR 내용 : 풀이 방법에 대한 간단한 설명, 혹은 공백
 
 ## 💻 디렉토리 및 파일 구조
