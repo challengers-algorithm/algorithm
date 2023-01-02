@@ -32,33 +32,33 @@
 
 - 풀이 Commit에만 해당하는 규칙입니다.
 - 문제 풀이시
-  - solve: 6자날짜표기 이름 플랫폼 문제이름
+  - solve : 6자날짜표기 이름 플랫폼 문제이름
 - 풀이 변경시
-  - fix: 6자날짜표기 이름 플랫폼 문제이름
+  - fix : 6자날짜표기 이름 플랫폼 문제이름
 - 파일명 변경시
   - move: 6자날짜표기 이름 플랫폼 문제이름
    
 | 플랫폼 이름 | 예시 |
 | --- | --- |
-| 백준| solve: 221227 yechankun 백준 오목 |
-| 프로그래머스 | solve: 221227 yechankun 프로그래머스 컨트롤 제트 |
-| 리트코드 예시 | solve: 221227 yechankun 리트코드 1. Two Sum |
+| 백준| solve : 221227 yechankun 백준 오목 |
+| 프로그래머스 | solve : 221227 yechankun 프로그래머스 컨트롤 제트 |
+| 리트코드 예시 | solve : 221227 yechankun 리트코드 1. Two Sum |
 
 
 ## 🍴 PR 규칙
 
 - PR 제목 
-- solve: 6자날짜표기 이름 플랫폼 문제이름
-- fix: 6자날짜표기 이름 플랫폼 문제이름
-- move: 6자날짜표기 이름 플랫폼 문제이름
+- solve : 6자날짜표기 이름 플랫폼 문제이름
+- fix : 6자날짜표기 이름 플랫폼 문제이름
+- move : 6자날짜표기 이름 플랫폼 문제이름
 - PR할 커밋이 여러개일 경우 ' & ' 기호를 붙여 나열(4개 이상은 지양)
 
 | 플랫폼 이름 | 예시 |
 | --- | --- |
-| 백준| solve: 221227 yechankun 백준 오목 |
-| 프로그래머스 | solve: 221227 yechankun 프로그래머스 컨트롤 제트 |
-| 리트코드 예시 | solve: 221227 yechankun 리트코드 1. Two Sum |
-| 여러 PR 예시 | solve: 221227 yechankun 리트코드 1. Two Sum & solve: 221227 yechankun 프로그래머스 컨트롤 제트 |
+| 백준| solve : 221227 yechankun 백준 오목 |
+| 프로그래머스 | solve : 221227 yechankun 프로그래머스 컨트롤 제트 |
+| 리트코드 예시 | solve : 221227 yechankun 리트코드 1. Two Sum |
+| 여러 PR 예시 | solve : 221227 yechankun 리트코드 1. Two Sum & solve : 221227 yechankun 프로그래머스 컨트롤 제트 |
 - PR 내용 : 풀이 방법에 대한 간단한 설명, 혹은 공백
 
 ## 💻 디렉토리 및 파일 구조
