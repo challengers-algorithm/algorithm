@@ -7,23 +7,26 @@ input = sys.stdin.readline
 
 def solutionInput():
     n, m = map(int, input().split())
-    board = [list(map(int, input().split()))]
+    board = [list(map(int, input().split())) for _ in range(n)]
     return n, m, board
 
 class Tetris:
     def __init__(s): # 테트리스 블럭들
         s.blocks = [ 
-                [[0, 1], [0, 2], [0, 3]], 
-                [[0, 1], [1, 1], [1, 0]],
-                [[1, 0], [1, 1], [2, 1]],
-                [[1, 0], [2, 0], [2, 1]],
-                [[1, 0], [1, 1], [2, 0]]
+                [[0, 1], [0, 2], [0, 3]], # 뒤집어도 같음
+                [[0, 1], [1, 1], [1, 0]], # 뒤집어도 같음
+                [[1, 0], [1, 1], [2, 1]], # 뒤집으면 다름
+                [[1, 0], [2, 0], [2, 1]], # 뒤집으면 다름
+                [[1, 0], [1, 1], [2, 0]], # 뒤집으면 같음
+                [[1, 0], [1, -1], [2, -1]], # 다른 친구 친구
+                [[1, 0], [2, 0], [2, -1]] # 다른 친구 추가
         ]
     
     def rotate(s): # 테트리스 블럭 회전
         for block in s.blocks:
             for i in range(3):
                 block[i][0], block[i][1] = -block[i][1], block[i][0]         
+
 
 def solution(n, m, board):
     t = Tetris()
@@ -33,9 +36,9 @@ def solution(n, m, board):
             for block in t.blocks:
                 for i in range(4): # 4번 돌기
                     temp = board[r][c] # 합산 넣기
-                    for dr, dc in block:
+                    for dr, dc in block:                        
                         nr, nc = r + dr, c + dc
-                        if not (0 <= nr < n and 0 <= nc < c):
+                        if not (0 <= nr < n and 0 <= nc < m):
                             break
                         temp += board[nr][nc]
                     else: # 전체를 제대로 돈 경우에만 최대값 갱신
